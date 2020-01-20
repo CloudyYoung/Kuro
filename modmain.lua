@@ -73,10 +73,11 @@ local shadow_apple_recipe = AddRecipe("shadow_apple", {Ingredient("berries", 6),
 local living_log_recipe = AddRecipe("livinglog", {Ingredient("nightmarefuel", 6), Ingredient("log", 20)}, KURO_TECH, TECH.NONE, nil, nil, nil, nil, nil, "images/inventoryimages/shadow_apple.xml")
 
 -- Recipe for Skull Chest
-local skull_chest_recipe = AddRecipe("skull_chest", {Ingredient("nightmarefuel", 8), Ingredient("boneshard", 6), Ingredient("livinglog", 2)}, KURO_TECH, TECH.NONE, nil, nil, nil, nil, nil, "images/inventoryimages/skull_chest.xml")
+local skull_chest_recipe = AddRecipe("skull_chest", {Ingredient("nightmarefuel", 8), Ingredient("boneshard", 6), Ingredient("livinglog", 2)}, KURO_TECH, TECH.NONE, "skull_chest_placer", nil, nil, nil, nil, "images/inventoryimages/skull_chest.xml")
 
 -- Recipe for Skull Cane
 local skull_cane_recipe = AddRecipe("skull_cane", {Ingredient("boneshard", 10), Ingredient("cane", 1), Ingredient("nightmarefuel", 6)}, KURO_TECH, TECH.NONE, nil, nil, nil, nil, nil, "images/inventoryimages/skull_cane.xml", "skull_cane.tex")
+
 
 
 

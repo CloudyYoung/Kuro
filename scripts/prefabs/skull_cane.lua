@@ -109,9 +109,9 @@ local function fn()
     inst.components.inventoryitem.imagename = "skull_cane"
     inst.components.inventoryitem.atlasname = "images/inventoryimages/skull_cane.xml"
 
-    inst:AddTag("waterproofer")
-    inst:AddComponent("waterproofer")
-    inst.components.waterproofer:SetEffectiveness(1) -- 100% water proof
+    -- inst:AddTag("waterproofer")
+    -- inst:AddComponent("waterproofer")
+    -- inst.components.waterproofer:SetEffectiveness(1) -- 100% water proof
 
     inst:AddComponent("equippable")
     inst.components.equippable:SetOnEquip( OnEquip )

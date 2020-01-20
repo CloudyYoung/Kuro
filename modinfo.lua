@@ -2,7 +2,7 @@
 name = "Kuro"
 description = "The Dark Prince \nPress Z to transform"
 author = "Little Monster"
-version = "1.2.20200115.0750" -- This is the version of the template. Change it to your own number.
+version = "1.2.20200119.0109" -- This is the version of the template. Change it to your own number.
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = "/files/file/950-extended-sample-character/"
